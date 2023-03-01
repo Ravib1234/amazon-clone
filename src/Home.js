@@ -1,6 +1,6 @@
 import React from 'react'
 import Product from './Product'
-// import './Home.css';
+import './Home.css';
 
 function Home() {
   return (
@@ -11,17 +11,24 @@ function Home() {
         />
 
         <div className='home__row'>
-            <Product />
-            {/* Product */}
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
+           
         </div>
         <div className='home__row'>
-            {/* Product */}
-            {/* Product */}
-            {/* Product */}
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
+        </div>
+        <div className='home__row'>
+            <Product title='The lean startup' price={29.99} 
+            image="" rating={5} />
             
-        </div>
-        <div className='home__row'>
-            {/* Product */}
         </div>
         
         </div>
