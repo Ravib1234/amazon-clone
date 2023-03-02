@@ -9,7 +9,7 @@ export const StateProvider = ({ reducer, initialState, children }) => {
             initialState)}>
         {children}
         </StateContext.Provider>)
- } ;
+ };
 
 
 // Pull information from the data layer
