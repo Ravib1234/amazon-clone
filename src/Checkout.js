@@ -21,23 +21,7 @@ function Checkout() {
              Basket </h2>
               
               
-             <CheckoutProduct
-                item='234221'
-                title="This is a test"
-                image="https://m.media-amazon.com/images/I/51WIKlio9gL.jpg"
-                price={199.99}
-                rating={5}
-                
-                />
-
-                <CheckoutProduct
-                item='234221'
-                title="This is a test"
-                image="https://m.media-amazon.com/images/I/51WIKlio9gL.jpg"
-                price={199.99}
-                rating={5}
-                
-                />
+             
               
               {basket.map(item => (
                
@@ -49,15 +33,8 @@ function Checkout() {
                 rating={item.rating}
                 
                 />
-
-                
-
               ))}
              
-             {/*  CheckoutProduct  */}
-             {/*  CheckoutProduct  */}
-             {/*  CheckoutProduct  */}
-             {/*  CheckoutProduct  */}
              
         </div>
         </div>
